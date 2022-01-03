@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightcoral;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            padding: 10px;
+            background-color: lightgreen;
+            margin: 10px;
+        }
+        nav {
+        background-color: gray;
+        padding: 2px;
+        }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+    }
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        footer {
+            background-color:black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Exemplo de site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+
+    <main>
+    <section id="assuntos">
+    <p>Bitcoin tem alta de 110%</p>
+    </section>
+
+    <section id="noticias">
+        <article>
+            <h2>Criptmoedas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minus porro accusantium dolorem vitae nihil officiis. Nemo possimus fugit dolorum nihil pariatur dolorem aspernatur voluptas iusto, minima blanditiis. Unde, iusto.</p>
+            <aside>
+                <p>Artigo escrito por Kaik Castro</p>
+            </aside>
+        </article>
+        <h2>Banco Inter é o melhor banco</h2>
+        <article>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quos atque ullam pariatur voluptatum voluptatem laudantium quibusdam? Voluptatibus ab non laborum ipsam totam vero sunt, illo quaerat et iusto distinctio?</p>
+            <aside>
+                <p>Segundo Pesquisas é o melhor.</p>
+            </aside>
+        </article>
+    </section>
+    
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Gabriel Castro</p>
+    </footer>
+    
+</body>
+</html>
